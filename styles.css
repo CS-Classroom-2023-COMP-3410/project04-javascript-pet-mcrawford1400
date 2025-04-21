@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+  }
+  
+  #pet {
+    width: 200px;
+    height: 200px;
+    background-color: yellow; /*starting color*/
+    margin: 20px auto;/* centers the pet */
+    border-radius: 50%;
+    transition: background-color 0.5s; /* changes the background color in .5 seconds*/
+    border-color: black;
+    border-width: 1px; 
+    border-style: solid; 
+  }
+  
+  #controls button{ /*selects all button elements that are inside the controls div*/
+    margin: 10px;
+    padding: 10px 20px;
+    color: red;
+    box-shadow: 2px 2px 5px gray;/*found this box-shadow attribute online*/
+  }
+  
